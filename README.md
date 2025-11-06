@@ -25,7 +25,7 @@ Libraries: scikit-learn, pandas, numpy, joblib, Flask
 
 Dataset File:
 
-dataset/loan_approval_dataset.csv
+loan_prediction/loan.csv
 
 🧩 Project Structure
 loan_prediction/
@@ -39,7 +39,12 @@ loan_prediction/
 │       └── style.css          # Styling
 ├── loan_train.py              # Model training script
 └── README.md
+UI Screenshot Path:
 
+screenshots/loan_ui.png
+
+
+(Example Screenshot)
 ⚙️ How It Works
 
 User enters input data (Gender, Income, Credit History, etc.).
