@@ -96,7 +96,7 @@ wine_prediction/
 └── README.md
 
 📸 **UI Screenshot:**
-<img src="wine_quality/static" width="700">
+<img src="wine_quality/static/Screenshot 2025-11-05 131253.png" width="700">
 ⚙️ How It Works
 
 User enters 11 physicochemical features:
