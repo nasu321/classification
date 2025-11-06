@@ -51,7 +51,7 @@ loan_prediction/
 **Local Flask URL:** [http://127.0.0.1:5000/predict](http://127.0.0.1:5000/predict)
 
 📸 **UI Screenshot:**
-![loan_prediction/(static/loan ui.png)]
+![loan_prediction/](static/loan ui.png)
 
 **Example Output:**
 
