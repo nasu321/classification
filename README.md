@@ -21,6 +21,11 @@ Algorithm: Random Forest Classifier
 Libraries: scikit-learn, pandas, numpy, joblib
 
 Programming Language: Python
+Libraries: scikit-learn, pandas, numpy, joblib, Flask
+
+Dataset File:
+
+dataset/loan_approval_dataset.csv
 
 🧩 Project Structure
 loan_prediction/
