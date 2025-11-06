@@ -41,7 +41,8 @@ loan_prediction/
 └── README.md
 UI Screenshot Path:
 
-screenshots/loan_ui.png
+loan_prediction/static
+/loan ui.png
 
 
 (Example Screenshot)
