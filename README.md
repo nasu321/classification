@@ -95,6 +95,8 @@ wine_prediction/
 ├── train_wine_model.ipynb     # Model training notebook
 └── README.md
 
+📸 **UI Screenshot:**
+<img src="loan_prediction/static/loan ui.png" width="700">
 ⚙️ How It Works
 
 User enters 11 physicochemical features:
