@@ -1,29 +1,24 @@
-## 🏦 Loan Approval Prediction System
-📘 Overview
+🏦 Loan Approval Prediction System
 
-The Loan Approval Prediction System predicts whether a loan application will be approved or rejected based on user input.
-It uses a Random Forest Classifier trained on loan applicant data and provides the result with a confidence score through a Flask web interface.
+### 📘 Overview
+The **Loan Approval Prediction System** predicts whether a loan application will be **Approved ✅** or **Rejected ❌** based on applicant and financial data.  
+It uses a **Random Forest Classifier** trained on a structured dataset of loan applicants.
 
-🚀 Features
+---
 
-Predicts Loan Approval Status (Approved / Rejected)
+### 🚀 Features
+- Predicts **Loan Status:** Approved / Rejected  
+- Displays **Prediction Confidence (%)**  
+- Fully responsive web UI using Flask + HTML/CSS  
+- Integrated **Machine Learning pipeline**
 
-Displays Confidence Score (%)
+---
 
-Responsive web interface with dropdowns and form validation
-
-Uses preprocessing + model pipeline for clean predictions
-
-🧠 Machine Learning Model
-
-Algorithm: Random Forest Classifier
-
-Libraries: scikit-learn, pandas, numpy, joblib
-
-Programming Language: Python
-Libraries: scikit-learn, pandas, numpy, joblib, Flask
-
-Dataset File:
+### 🧠 Model Details
+- **Algorithm:** Random Forest Classifier  
+- **Language:** Python  
+- **Libraries:** `scikit-learn`, `pandas`, `numpy`, `joblib`, `Flask`  
+- **Dataset Path:**
 
 loan_prediction/loan.csv
 
@@ -39,29 +34,27 @@ loan_prediction/
 │       └── style.css          # Styling
 ├── loan_train.py              # Model training script
 └── README.md
-UI Screenshot Path:
 
-loan_prediction/static
-/loan ui.png
+---
 
+### ⚙️ How It Works
+1. User inputs applicant details (Gender, Income, Loan Amount, etc.).
+2. Flask sends input to the trained Random Forest model.
+3. The model predicts:
+   - ✅ **Loan Approved**
+   - ❌ **Loan Rejected**
+4. The prediction and confidence score are displayed on the webpage.
 
-(Example Screenshot)
-⚙️ How It Works
+---
 
-User enters input data (Gender, Income, Credit History, etc.).
+### 🌐 Output Screenshot
+**Local Flask URL:** [http://127.0.0.1:5000/predict](http://127.0.0.1:5000/predict)
 
-The Flask backend sends data to the trained Random Forest model.
+📸 **UI Screenshot:**
+![Loan Prediction Output](screenshots/loan_ui.png)
 
-The model predicts Approved / Rejected.
+**Example Output:**
 
-Result and probability are displayed instantly on the webpage
-Insights / Outcomes
-
-Automated loan decision-making using ML.
-
-Improved model accuracy via Random Forest Classifier.
-
-Fully functional end-to-end deployment using Flask.
 ## Wine Type Prediction System
 📘 Overview
 
